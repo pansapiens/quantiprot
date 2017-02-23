@@ -1,0 +1,5 @@
+matplotlib>=2.0.0
+numpy>=1.11.0
+powerlaw>=1.4.1
+requests>=2.10.0
+scipy>=0.17.0
