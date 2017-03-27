@@ -12,6 +12,7 @@ quantiprot/metrics/basic.py
 quantiprot/metrics/entropy.py
 quantiprot/metrics/ngram.py
 quantiprot/metrics/rqa.py
+quantiprot/metrics/data/aaindex1
 quantiprot/utils/__init__.py
 quantiprot/utils/feature.py
 quantiprot/utils/io.py
