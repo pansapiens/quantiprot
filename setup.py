@@ -12,4 +12,5 @@ setup(
   keywords = ['protein', 'sequence', 'quantitative', 'analysis', 'rqa', 'n-gram'],
   classifiers = [],
   install_requires = ['numpy>=1.11.0', 'requests>=2.10.0'],
+  license='MIT',
 )
