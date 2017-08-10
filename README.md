@@ -12,7 +12,7 @@ The Quantiprot package is distributed under [the MIT license](/LICENSE.txt).
 
 If you publish results obtained using Quantiprot, please cite:
 
-B.M. Konopka, and W. Dyrka. Quantiprot – a Python package for quantitative analysis of protein sequences. BMC Bioinformatics 18:339, 2017
+B.M. Konopka, M. Marciniak, and W. Dyrka. Quantiprot – a Python package for quantitative analysis of protein sequences. BMC Bioinformatics 18:339, 2017
 
 ## Code
 
