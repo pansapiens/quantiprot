@@ -905,9 +905,7 @@ Kawashima, S., Ogata, H., and Kanehisa, M.; AAindex: amino acid index database. 
 
 
 ## Citing Quantiprot
-B.M. Konopka, and W. Dyrka. Quantiprot – a Python package for quantitative analysis of protein sequences. Acta Biochimica Polonica Vol. 63 Supplement 2:P20.5, 2016
-
-The journal paper yet to be published.
+B.M. Konopka, and W. Dyrka. Quantiprot – a Python package for quantitative analysis of protein sequences. BMC Bioinformatics 18:339, 2017
 
 ## Contributors
 
