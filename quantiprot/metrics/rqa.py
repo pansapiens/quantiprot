@@ -457,33 +457,33 @@ class RQAFeatureSet(object):
             rec_table = _recurrence_common(seq.data, **self.params)
 
             if window == 0:
-                window = len(seq.data)
+                my_window = len(seq.data)
 
             if 'recurrence' in self.features or \
                'ratio_determinism' in self.features or \
                'ratio_palindromism' in self.features:
                 rqa_output['recurrence'] = []
-                for win_pos in range(len(seq.data) - window + 1):
-                    rec_table_part = rec_table[win_pos:win_pos + window,
-                                               win_pos:win_pos + window]
+                for win_pos in range(len(seq.data) - my_window + 1):
+                    rec_table_part = rec_table[win_pos:win_pos + my_window,
+                                               win_pos:win_pos + my_window]
                     rqa_output['recurrence'].append(recurrence([],
                          _rec_table=rec_table_part, **self.params))
 
             if 'determinism' in self.features or \
                'ratio_determinism' in self.features:
                 rqa_output['determinism'] = []
-                for win_pos in range(len(seq.data) - window + 1):
-                    rec_table_part = rec_table[win_pos:win_pos + window,
-                                               win_pos:win_pos + window]
+                for win_pos in range(len(seq.data) - my_window + 1):
+                    rec_table_part = rec_table[win_pos:win_pos + my_window,
+                                               win_pos:win_pos + my_window]
                     rqa_output['determinism'].append(determinism([],
                         _rec_table=rec_table_part, **self.params))
 
             if 'palindromism' in self.features or \
                'ratio_palindromism' in self.features:
                 rqa_output['palindromism'] = []
-                for win_pos in range(len(seq.data) - window + 1):
-                    rec_table_part = rec_table[win_pos:win_pos + window,
-                                               win_pos:win_pos + window]
+                for win_pos in range(len(seq.data) - my_window + 1):
+                    rec_table_part = rec_table[win_pos:win_pos + my_window,
+                                               win_pos:win_pos + my_window]
                     rqa_output['palindromism'].append(palindromism([],
                         _rec_table=rec_table_part, **self.params))
 
