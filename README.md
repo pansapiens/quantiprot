@@ -1,5 +1,5 @@
 # Quantiprot
-##### current version: 0.2.3
+##### current version: 0.2.4
 
 The Quantiprot package is a python package designed to facilitate quantitative analysis of protein sequences.
 
@@ -20,7 +20,7 @@ Currently, the code is hosted by [E-SCIENCE.PL](https://git.e-science.pl/wdyrka/
 
 ## Documentation
 
-More information on the package and **examples** can be found in the [user manual](/docs/manual.md).
+More information on the package and **examples** can be found in the [USER MANUAL](/docs/manual.md).
 
 ## Contact
 
