@@ -10,7 +10,7 @@ setup(
   url = 'https://git.e-science.pl/wdyrka/quantiprot',
   download_url = 'https://git.e-science.pl/wdyrka/quantiprot/repository/archive.tar.gz?ref=0.2.4',
   keywords = ['protein', 'sequence', 'quantitative', 'analysis', 'rqa', 'n-gram'],
-  classifiers = [],
+  classifiers = ["License :: OSI Approved :: MIT License"],
   install_requires = ['numpy>=1.11.0', 'requests>=2.10.0'],
   license='MIT',
 )
